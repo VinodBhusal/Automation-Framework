@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="CreateNewsTest">
+	  <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+            <class name="com.supermarket.test.CreateNewsTest"/>
+     </classes>
+  </test> 
+  
+   <test  name="AdminTest">
+	    <parameter name="BrowserName" value="Firefox"></parameter>
+    <classes>
+           <class name="com.supermarket.test.AdminTest"/>
+     </classes>
+  </test> 
+  
+     <test  name="Logintest">
+		  <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes> 
+          <class name="com.supermarket.test.LoginTest"/>
+     </classes>
+  </test> 
+  
+   <test  name="DeliveryTest">
+	    <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+        <class name="com.supermarket.test.CreateDeliveryBoyTest"/>
+     </classes>
+  </test> 
+  
+   <test  name="AddExpenseTest">
+	    <parameter name="BrowserName" value="Firefox"></parameter>
+    <classes>
+        <class name="com.supermarket.test.AddExpenseTest"/> 
+     </classes>
+  </test> 
+  
+           <test  name="ManageExpenseTest">
+			    <parameter name="BrowserName" value="Edge"></parameter>
+    <classes>
+       <class name="com.supermarket.test.ManageExpenseTest"/>
+     </classes>
+  </test>     
+                 
+</suite> 
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CreateNewsTest(failed)">
+    <classes>
+      <class name="com.supermarket.test.CreateNewsTest">
+        <methods>
+          <include name="initialiseDriver"/>
+          <include name="createNews"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.supermarket.test.CreateNewsTest -->
+    </classes>
+  </test> <!-- CreateNewsTest(failed) -->
+  <test thread-count="5" name="AdminTest(failed)">
+    <classes>
+      <class name="com.supermarket.test.AdminTest">
+        <methods>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+          <include name="myadminTest"/>
+        </methods>
+      </class> <!-- com.supermarket.test.AdminTest -->
+    </classes>
+  </test> <!-- AdminTest(failed) -->
+  <test thread-count="5" name="Logintest(failed)">
+    <classes>
+      <class name="com.supermarket.test.LoginTest">
+        <methods>
+          <include name="verifyUserIsAbleToLoginWithCredentials"/>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.supermarket.test.LoginTest -->
+    </classes>
+  </test> <!-- Logintest(failed) -->
+  <test thread-count="5" name="DeliveryTest(failed)">
+    <classes>
+      <class name="com.supermarket.test.CreateDeliveryBoyTest">
+        <methods>
+          <include name="verifyUserIsAbleToCreateMultipleDeliveryBoys"/>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.supermarket.test.CreateDeliveryBoyTest -->
+    </classes>
+  </test> <!-- DeliveryTest(failed) -->
+  <test thread-count="5" name="AddExpenseTest(failed)">
+    <classes>
+      <class name="com.supermarket.test.AddExpenseTest">
+        <methods>
+          <include name="initialiseDriver"/>
+          <include name="verufyUserIsAbleToAddExpense"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.supermarket.test.AddExpenseTest -->
+    </classes>
+  </test> <!-- AddExpenseTest(failed) -->
+  <test thread-count="5" name="ManageExpenseTest(failed)">
+    <classes>
+      <class name="com.supermarket.test.ManageExpenseTest">
+        <methods>
+          <include name="userIsableToCreateAndDeleteExpense"/>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.supermarket.test.ManageExpenseTest -->
+    </classes>
+  </test> <!-- ManageExpenseTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
